@@ -20,4 +20,6 @@ class simp_options::rsync (
 ){
   assert_private()
   validate_net_list($server)
+
+  include ::rsync
 }
